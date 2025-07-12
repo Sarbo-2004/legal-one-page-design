@@ -43,7 +43,7 @@ const consultationOptions = [
 
 export const ConsultationFees = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="fees" className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-primary mb-4">Consultation Fees</h2>

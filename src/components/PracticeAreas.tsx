@@ -36,7 +36,7 @@ const practiceAreas = [
 
 export const PracticeAreas = () => {
   return (
-    <section className="py-24 bg-section-bg">
+    <section id="practice-areas" className="py-24 bg-section-bg">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-primary mb-4">Practice Areas</h2>

@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export const ContactInfo = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="contact" className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-primary mb-4">Contact Information</h2>
@@ -82,31 +82,33 @@ export const ContactInfo = () => {
           
           <div className="space-y-6">
             <div className="bg-section-bg p-8 rounded-lg">
-              <h3 className="text-2xl font-light text-primary mb-6">Schedule a Consultation</h3>
+              <h3 className="text-2xl font-light text-primary mb-6">Get Legal Guidance</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Take the first step toward resolving your legal matter. Schedule a consultation 
-                to discuss your case and learn about your options.
+                Have a legal question or need professional counsel? Contact our office directly 
+                to discuss your matter and explore your options.
               </p>
               
               <div className="space-y-4">
                 <Button 
                   size="lg" 
                   className="w-full bg-primary hover:bg-professional-light text-primary-foreground"
+                  onClick={() => window.location.href = 'tel:(217) 555-0123'}
                 >
-                  Book Online Consultation
+                  Call Office: (217) 555-0123
                 </Button>
                 
                 <Button 
                   variant="outline" 
                   size="lg" 
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => window.location.href = 'mailto:sarah@mitchelllaw.com'}
                 >
-                  Call for Appointment
+                  Send Email
                 </Button>
               </div>
               
               <p className="text-sm text-muted-foreground mt-6 text-center">
-                Evening and weekend appointments available upon request
+                Please call to schedule in-person consultations
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-office.jpg";
 
 export const LawyerHero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-background">
+    <section className="relative min-h-screen flex items-center justify-center bg-background pt-20">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5"
         style={{ backgroundImage: `url(${heroImage})` }}
@@ -25,8 +25,12 @@ export const LawyerHero = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-professional-light text-primary-foreground px-8 py-3 text-lg font-light tracking-wide"
+              onClick={() => {
+                const element = document.getElementById('contact');
+                element?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
-              Schedule Consultation
+              Contact Us Today
             </Button>
           </div>
         </div>
