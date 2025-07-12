@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { LawyerHero } from "@/components/LawyerHero";
+import { PracticeAreas } from "@/components/PracticeAreas";
+import { ConsultationFees } from "@/components/ConsultationFees";
+import { Testimonials } from "@/components/Testimonials";
+import { ContactInfo } from "@/components/ContactInfo";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <LawyerHero />
+      <PracticeAreas />
+      <ConsultationFees />
+      <Testimonials />
+      <ContactInfo />
+      <Footer />
     </div>
   );
 };
