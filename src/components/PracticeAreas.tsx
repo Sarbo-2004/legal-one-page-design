@@ -4,17 +4,12 @@ import { Scale, Building, FileText, Users, Home, Briefcase } from "lucide-react"
 const practiceAreas = [
   {
     icon: Scale,
-    title: "Corporate Law",
+    title: "Civil Law/property law",
     description: "Business formation, contracts, mergers and acquisitions, and corporate governance."
   },
   {
-    icon: Home,
-    title: "Real Estate",
-    description: "Property transactions, closings, title work, and real estate litigation."
-  },
-  {
     icon: FileText,
-    title: "Estate Planning",
+    title: "Property Registration",
     description: "Wills, trusts, probate administration, and estate tax planning."
   },
   {
@@ -24,12 +19,12 @@ const practiceAreas = [
   },
   {
     icon: Building,
-    title: "Civil Litigation",
+    title: "Drafting of Contract",
     description: "Commercial disputes, contract enforcement, and trial representation."
   },
   {
     icon: Briefcase,
-    title: "Employment Law",
+    title: "Development Agreement",
     description: "Workplace disputes, wrongful termination, and employment contracts."
   }
 ];

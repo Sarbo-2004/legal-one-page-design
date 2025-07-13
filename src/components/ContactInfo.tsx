@@ -24,7 +24,7 @@ export const ContactInfo = () => {
                 <div>
                   <h3 className="font-medium text-primary mb-2">Office Address</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Mitchell Law Offices<br />
+                    Dasgupta Law Offices<br />
                     1425 Corporate Center Drive<br />
                     Suite 240<br />
                     Downtown Business District<br />
@@ -42,8 +42,7 @@ export const ContactInfo = () => {
                 <div>
                   <h3 className="font-medium text-primary mb-2">Phone</h3>
                   <p className="text-muted-foreground">
-                    Office: (217) 555-0123<br />
-                    Mobile: (217) 555-0124
+                    Mobile: 09641426460
                   </p>
                 </div>
               </div>
@@ -57,7 +56,7 @@ export const ContactInfo = () => {
                 <div>
                   <h3 className="font-medium text-primary mb-2">Email</h3>
                   <p className="text-muted-foreground">
-                    sarah@mitchelllaw.com
+                    dasguptarajan@gmail.com
                   </p>
                 </div>
               </div>
@@ -92,16 +91,16 @@ export const ContactInfo = () => {
                 <Button 
                   size="lg" 
                   className="w-full bg-primary hover:bg-professional-light text-primary-foreground"
-                  onClick={() => window.location.href = 'tel:(217) 555-0123'}
+                  onClick={() => window.location.href = 'tel:09641426460'}
                 >
-                  Call Office: (217) 555-0123
+                  Call Office: 09641426460
                 </Button>
                 
                 <Button 
                   variant="outline" 
                   size="lg" 
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.location.href = 'mailto:sarah@mitchelllaw.com'}
+                  onClick={() => window.location.href = 'mailto:dasguptarajan@gmail.com'}
                 >
                   Send Email
                 </Button>
