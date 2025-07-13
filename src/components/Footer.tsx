@@ -3,9 +3,12 @@ export const Footer = () => {
     <footer className="py-8 bg-primary text-primary-foreground">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center space-y-4">
-          <h3 className="text-xl font-light">Rajan Dasgupta, Attorney at Law</h3>
+          <h3 className="text-xl font-light">Rajan Dasgupta, Advocate</h3>
           <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-8 text-sm opacity-90">
-            <p>1425 Corporate Center Drive, Suite 240, Springfield, IL 62701(Your address)</p>
+            <p>Tetikhola
+                    Vivekananda Park
+                    H. N:- I G/ 3/1,
+                    P.O.Arrah, Durgapur</p>
             <p>09641426460</p>
             <p>dasguptarajan@gmail.com</p>
           </div>

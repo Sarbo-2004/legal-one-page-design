@@ -24,11 +24,10 @@ export const ContactInfo = () => {
                 <div>
                   <h3 className="font-medium text-primary mb-2">Office Address</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Dasgupta Law Offices<br />
-                    1425 Corporate Center Drive<br />
-                    Suite 240<br />
-                    Downtown Business District<br />
-                    Springfield, IL 62701
+                    Tetikhola<br />
+                    Vivekananda Park<br />
+                    H. N:- I G/ 3/1,<br />
+                    P.O.Arrah, Durgapur
                   </p>
                 </div>
               </div>
@@ -70,7 +69,7 @@ export const ContactInfo = () => {
                 <div>
                   <h3 className="font-medium text-primary mb-2">Office Hours</h3>
                   <div className="text-muted-foreground space-y-1">
-                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p>Monday - Friday: 6:00 PM - 9:00 PM</p>
                     <p>Saturday: 10:00 AM - 2:00 PM</p>
                     <p>Sunday: By appointment only</p>
                   </div>

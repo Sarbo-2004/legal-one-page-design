@@ -15,11 +15,11 @@ export const LawyerHero = () => {
           </h1>
           <div className="w-24 h-0.5 bg-accent mx-auto"></div>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
-            Attorney at Law
+            Advocate B.A. LLB (Hons.)
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Providing trusted legal counsel with over 15 years of experience in corporate law, 
-            real estate transactions, and estate planning.
+            Providing trusted legal counsel with over 5 years of experience in Civil law, 
+            registration of property, and Family Law.
           </p>
           <div className="pt-8">
             <Button 
