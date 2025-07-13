@@ -11,7 +11,7 @@ export const LawyerHero = () => {
       <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
         <div className="space-y-6">
           <h1 className="text-5xl md:text-7xl font-light text-primary tracking-tight">
-            Ranjan Dasgupta
+            Rajan Dasgupta
           </h1>
           <div className="w-24 h-0.5 bg-accent mx-auto"></div>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
