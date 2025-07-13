@@ -13,7 +13,7 @@ const Index = () => {
       <LawyerHero />
       <PracticeAreas />
       <ConsultationFees />
-      <div className="bg-muted text-muted-foreground text-xs text-center py-1 px-4">
+      <div className="bg-muted text-muted-foreground text-sm text-center py-3 px-4">
         This is a sample website preview - made by Sarbojeet
       </div>
       <Testimonials />
