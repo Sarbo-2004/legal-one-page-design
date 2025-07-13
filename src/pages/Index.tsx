@@ -9,13 +9,13 @@ import { Footer } from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <div className="bg-muted text-muted-foreground text-xs text-center py-1 px-4">
-        This is a sample website preview - made by Sarbojeet
-      </div>
       <Navbar />
       <LawyerHero />
       <PracticeAreas />
       <ConsultationFees />
+      <div className="bg-muted text-muted-foreground text-xs text-center py-1 px-4">
+        This is a sample website preview - made by Sarbojeet
+      </div>
       <Testimonials />
       <ContactInfo />
       <Footer />
