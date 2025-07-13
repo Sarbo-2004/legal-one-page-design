@@ -100,7 +100,7 @@ export const ContactInfo = () => {
                   variant="outline" 
                   size="lg" 
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.location.href = 'mailto:dasguptarajan@gmail.com'}
+                  onClick={() => window.location.href = ''}
                 >
                   Send Email
                 </Button>

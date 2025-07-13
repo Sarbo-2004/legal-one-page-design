@@ -11,7 +11,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-semibold text-primary">
-            Sarah J. Mitchell
+            Ranjan Dasgupta
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
